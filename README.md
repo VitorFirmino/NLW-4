@@ -28,4 +28,5 @@ $ yarn dev
 
 ## Deploy
 
-[](moveit-well.vercel.app)
+[site-deploy](moveit-well.vercel.app)
+https://moveit-well.vercel.app/
