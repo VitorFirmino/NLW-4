@@ -11,6 +11,7 @@ import { CountdownProvider } from '../contexts/CountdownContext';
 
 import styles from '../styles/pages/Home.module.css'
 import { ChallengesProvider } from '../contexts/ChallengesContext';
+import SideBar from '../components/SideBar';
 
 
 interface Homeprops {
@@ -32,6 +33,8 @@ export default function Home(props:Homeprops) {
         <title>Inicio | move.it</title>
 
       </Head>
+
+      <SideBar />
 
     <ExperienceBar />
 
